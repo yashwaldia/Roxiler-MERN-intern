@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: fantasy; */
+  background-color: #f8f9fa; /* Light gray */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  font-family: fantasy;
+}
+h2, h3{
+  font-family: fangsong;
+  text-align: center;
+}
+tbody{
+  font-family: serif;
+}
+h5{
+  font-weight: bold;
+}
+p{
+  font-family: serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensures alignment inside the border */
+}
+
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.table {
+  margin-top: 20px;
+}
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.card.p-3,
+.card.p-4 {
+  padding: 15px;
+}
